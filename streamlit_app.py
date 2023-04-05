@@ -51,7 +51,7 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 streamlit.dataframe(fruityvice_normalized)
 
 
-streamlit.header("The fruit load list contains:")
+streamlit.header("View Our Fruit List - Add your favourites!")
 #Snowflake-related functions
 def get_fruit_load_list():
     with my_cnx.cursor() as my_cur:
